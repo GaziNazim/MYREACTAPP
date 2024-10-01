@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-export function App() {
+export default function App() {
 
     const [count, updateCount] = useState(0);
 
@@ -16,6 +16,8 @@ export function App() {
         </>
     )
 }
+
+
 
 
 function MyButton({name, parentCount, updateParentCount}) {
