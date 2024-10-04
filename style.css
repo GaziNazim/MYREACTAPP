@@ -89,3 +89,15 @@
     margin-left: 20px;
   }
   
+
+  .highlight {
+    background-color: rgb(56, 172, 65); /* Highlight color for winning squares */
+  }
+
+  .highlightFail {
+    background-color: rgb(81, 49, 122); /* Highlight color for winning squares */
+  }
+
+  .hasValue {
+    background-color: rgb(192, 71, 71); /* Highlight color for winning squares */
+  }
